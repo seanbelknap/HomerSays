@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    background-image: url(https://mcdn.wallpapersafari.com/medium/57/15/QyXPgt.jpg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100vw;
+    background-color: gold;
+    background-image: center;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+.gameBoard{
+  position: absolute;
+  top: 20%;
+  /* border: white; */
+  
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-image: url(https://www.desktopbackground.org/p/2014/10/29/847847_donut-wallpaper-i-use-it-right-now_640x1136_h.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 27%;
+}
+
+
+.btn{
+    width: 220px;
+    height: 220px;
+    
+    padding: 0;
+}
+
+#startBtn{
+    border-radius: 100%;
+}
+
+#turn{
+    background-color:;
+    width: 3em;
+    margin-top: 10px;
+    color: darkmagenta;
+    text-align: center;
+    /*  */
+}
+
+
+#green{
+    background-color: green;
+    border-top-left-radius: 100%;
+}
+
+#blue{
+    background-color: blue;
+    border-top-right-radius: 100%;
+}
+
+#red{
+    background-color: red;
+    border-bottom-left-radius: 100%;
+}
+#yellow{
+    background-color: yellow;
+    border-bottom-right-radius: 100%;
+}
+
